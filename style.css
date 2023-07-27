@@ -1,0 +1,235 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,100;1,300;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(9, 9, 58);
+    color: white;
+    font-family: poppins,sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(46, 46, 239);
+}
+
+.left{
+    font-size: 1.5rem;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 25px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: rgb(9, 8, 8);
+    font-size: 1.2rem;
+}
+
+.firstsection{
+    display: flex;
+    margin: 140px 0;
+    justify-content: space-around;
+}
+
+.leftsection {
+   /* background-color: aqua;  */
+    width: 30%;
+    margin: 30px;
+    font-size: 2.5rem;
+}
+
+.rightsection img{
+    margin: 30px;
+    width: 80%;
+}
+
+.rightsection {
+    margin: 30px;
+    width: 30%;
+}
+
+#name{
+    color: blueviolet;
+}
+
+#element{
+    color: rgb(114, 114, 228);
+}
+
+
+
+.secondsection{
+    justify-content: space-around;
+    color: black;
+    display: flex;
+}
+
+.education-title{
+    color: white;
+    font-size: 2rem;
+    margin: 0px 100px 20px 110px;
+}
+
+.line1 hr{
+    height: 1.2px;
+    border: 0;
+    background: blueviolet;
+    margin: 10vh;
+}
+
+.button{
+    justify-content: space-around;
+}
+
+.btn{
+    padding: 12px;
+    background-color: rgb(20, 84, 174);
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover{
+size: 1.2rem;
+color: rgb(0, 0, 5);
+}
+
+.education{
+    background-color: silver;
+    height: 20vw;
+    width: 20vw;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.edu-title{
+    font-size: 2rem;
+    
+}
+.edu-desc{
+    font-size: 1rem;
+    text-align: left;
+    margin: 10px;
+    padding: 7px;
+}
+
+.thirdsection{
+     max-width: 80vw;
+     margin: auto;
+
+}
+
+main hr{
+    border: 0;
+    background: blueviolet;
+    height: 1.2px;
+    margin: 5vw;
+    
+}
+
+.text-grey{
+    color: grey;
+    text-decoration: none;
+    display: inline;
+
+}
+.thirdsection h1{
+    font-size: 2rem;
+    margin: 20px;
+    
+}
+
+.box{
+    background: white;
+    width: 1250px;
+    height: 2px;
+    margin: 40px 0;
+    display: flex;
+}
+
+.image-top{
+    width: 23px;
+    display: inline;
+    position: relative;
+    top: -32;
+    left: -9;
+}
+
+.vertical-desc{
+     position: relative;
+     top: 75px;
+     width: 150px;  
+     color: gray;
+     font-size: 9px;
+}
+
+.vertical{
+    height: 100px;
+    width: 1px;
+    justify-content: space-around;
+    background-color: white;
+    margin: 0 140px;
+}
+
+.vertical-title{
+    position: relative;
+    top: 25;
+    width: 150;
+    font-size: 14px;
+}
+
+.line3 hr{
+    height: 1.2px;
+    border: 0;
+    background: blueviolet;
+    margin: 500px;
+}
+
+footer{
+    background-color: rgb(36, 36, 39);
+    height: 150px;
+}
+.footer{
+    position: relative;
+    display: flex;
+    margin: 550px 122px 0px 122px;
+    justify-content: space-evenly;  
+}
+
+.footer-rights{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: grey;
+}
+
+a{
+    color: white;
+}
